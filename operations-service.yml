@@ -2,7 +2,7 @@ server:
   port: 9030
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/distributed-pg-operations-db
+    url: jdbc:postgresql://localhost:5432/operations-db
 app:
   webhook:
     delivery:
