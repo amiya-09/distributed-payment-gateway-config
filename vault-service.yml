@@ -1,0 +1,7 @@
+server:
+  port: 9040
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/distributed-pg-vault-db
+vault:
+  master-key: adabbbucgwuoyrfbv8rbv8refg438fvq8obcq8vwgg845g78h485g3ghf48bf94

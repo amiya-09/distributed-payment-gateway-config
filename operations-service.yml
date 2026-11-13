@@ -1,0 +1,10 @@
+server:
+  port: 9030
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/distributed-pg-operations-db
+app:
+  webhook:
+    delivery:
+      redis-key: "webhook-retry"
+      poll-batch-size: 100
