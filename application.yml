@@ -2,8 +2,8 @@ spring:
   application:
     name: razorpay
   datasource:
-    username: ${DB_USER:amiya}
-    password: ${DB_PASS:password}
+    username: amiya
+    password: password
     driver-class-name: org.postgresql.Driver
   data:
     redis:
