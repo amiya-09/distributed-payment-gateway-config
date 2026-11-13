@@ -1,0 +1,7 @@
+server:
+  port: 9010
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/distributed-pg-merchant-db
+jwt:
+  secret-key: adabbbuahfabvikasuhbfvqoe8r7vbqryeufaoie78v9vwgg845g78h485g3ghf48bf94
