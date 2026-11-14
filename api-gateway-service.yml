@@ -23,7 +23,7 @@ spring:
             - id: merchant-service
               uri: lb://merchant-service
               predicates:
-                - Path=/v1/auth/**, /v1/merchant/**
+                - Path=/v1/auth/**, /v1/merchants/**
 
             - id: payment-service
               uri: lb://payment-service
