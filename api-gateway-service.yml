@@ -6,7 +6,7 @@ app:
     trust-inbound-headers: false
     public-routes:
       - "/v1/auth/**"
-      - "/v1/webhook/**"
+      - "/webhook/**"
 
   rate-limit:
     method: fixed
@@ -38,4 +38,4 @@ spring:
             - id: operations-service
               uri: lb://operations-service
               predicates:
-                - Path=/v1/webhook/**
+                - Path=/webhook/**
