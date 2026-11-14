@@ -1,7 +1,7 @@
 server:
   port: 8080
 
-apps:
+app:
   security:
     trust-inbound-headers: false
     public-routes:
