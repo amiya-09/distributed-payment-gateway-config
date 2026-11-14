@@ -31,9 +31,9 @@ spring:
                 - Path=/v1/orders/**, /v1/payments/**
 
             - id: vault-service
-              uri: lb://vaulr-service
+              uri: lb://vault-service
               predicates:
-                - Path=/v1/vaulr/**
+                - Path=/v1/vault/**
 
             - id: operations-service
               uri: lb://operations-service
