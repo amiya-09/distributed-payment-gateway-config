@@ -5,3 +5,5 @@ spring:
     url: jdbc:postgresql://localhost:5432/merchant-db
 jwt:
   secret-key: adabbbuahfabvikasuhbfvqoe8r7vbqryeufaoie78v9vwgg845g78h485g3ghf48bf94
+webhook:
+  secret-encryption-key: LYyZnV5+wNpXOmew7sKvA45q0BiE/Vc4SQjMNL0vekU= # openssl rand -base64 32
